@@ -73,6 +73,20 @@
     }
 
     typeRole();
+// -- tech stack ----
+   const overlay = document.getElementById('modal-overlay');
+const openBtn = document.getElementById('open-techstack');
+const closeBtn = document.getElementById('close-techstack');
+
+openBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  overlay.style.display = 'flex';
+});
+
+closeBtn.addEventListener('click', () => {
+  overlay.style.display = 'none';
+});
+
 
     // ===== SKILL BAR ANIMATIONS =====
     document.querySelectorAll(".skill").forEach(skill => {
