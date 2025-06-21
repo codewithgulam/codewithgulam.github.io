@@ -24,6 +24,14 @@
   --shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
 }
 
+/*dark theme */
+    body[data-theme="dark"] {
+
+  background: linear-gradient(-45deg, #1f1c2c, #928dab, #1f1c2c);
+}
+
+
+
     body {
       font-family: 'Poppins', sans-serif;
       background: linear-gradient(-45deg, #6e8efb, #a777e3, #4b6cb7, #6e8efb);
